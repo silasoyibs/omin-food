@@ -1,6 +1,7 @@
 "use strict";
 const tabBar = document.querySelector(".header__hamburger");
 const menuHeader = document.querySelector(".header");
+const tabMenu = document.querySelector(".header__nav__container");
 
 // Toggling of the mobile menu
 tabBar.addEventListener("click", toggleMenu);
@@ -28,9 +29,9 @@ function handleIntersection(entries) {
 
 // Create an Intersection Observer to watch the menuHeader
 const menuObserver = new IntersectionObserver(handleIntersection, {
-  threshold: 1, // Adjust the threshold value as needed
+  threshold: 0, // Adjust the threshold value as needed
   root: null, // Set the root to the viewport
 });
 
 // Observe the menuHeader
-menuObserver.observe(menuHeader);
+menuObserver.observe(tabMenu);
