@@ -13,8 +13,10 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
   overflow-x: hidden;
+}
+body{
+  overflow: hidden;
 }
 
 
