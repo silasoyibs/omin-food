@@ -23,13 +23,14 @@ function handleIntersection(entries) {
     if (!entry.isIntersecting && openMenu) {
       // Close the menu when it's open and intersects with the viewport
       toggleMenu();
+      console.log("working");
     }
   });
 }
 
 // Create an Intersection Observer to watch the menuHeader
 const menuObserver = new IntersectionObserver(handleIntersection, {
-  threshold: 0, // Adjust the threshold value as needed
+  threshold: 1, // Adjust the threshold value as needed
   root: null, // Set the root to the viewport
 });
 
