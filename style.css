@@ -15,9 +15,6 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
-body{
-  
-}
 
 
 
@@ -168,19 +165,7 @@ body{
   display: none;
 }
 
-/* header svg {
-  width: 5rem;
-  display: none;
-} 
-header .header-bar {
-  color: #000000;
-} 
-header .header-xmark {
-  display: none;
-  color: #000000;
-  z-index: 10;
-  opacity: 0;
-} */
+
 
 /* ************************************* */
 /* home section */
@@ -712,7 +697,6 @@ header .header-xmark {
   color: #6f6f6f;
   padding-bottom: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap:1rem;
 }
 .container--1 img {
   width: 20rem;
@@ -751,9 +735,7 @@ header .header-xmark {
   padding-top: 2rem;
 }
 
-.boot{
-  background-color: #ffffff;
-}
+
 
 
 
@@ -983,6 +965,4 @@ header .header-xmark {
   }
   
 
-  /* .display{
-    display:none;
-  }  */
+  
